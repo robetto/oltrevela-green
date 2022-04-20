@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i");
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0; height: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.62;
+  color: #3b3f41;
+  background: #ffffff;
+  font-weight: 300;
+  background: #e4e4e4; 
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+::selection {
+  background-color: #f48c24;
+  color: #ffffff;
+}
+.st0 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #003366;
+}
+.st1 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #999999;
+}
+.st2 {
+  clip-path: url(#SVGID_2_);
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #ffffff;
+}
+#root {  padding:30px;}
+.App { color: white; max-width: 1000px; margin:30px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 3px -3px 15px 4px rgba(0, 0, 0, 0.264);
+  box-shadow: 3px -3px 15px 4px rgba(8, 8, 8, 0.268); overflow: hidden;
+  background-image: url("/public/sfondo.jpg");
+}
+main {
+  padding: 50px 90px; text-align: center;
+}
+p {
+  margin: 10px 0;
+}
+.logo {
+  width: 320px;
+}
+header {
+  background-color: #f1f0f5;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  background-color: #02351f;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center; display: flex; align-items: center; height: 120px; justify-content: center; margin-top: auto;
+}
+h1 {
+  color: #003366;
+}
